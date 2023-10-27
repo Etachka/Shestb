@@ -23,20 +23,7 @@ namespace Shestb.Controllers
         {
             return "Спасибо, " + NameText + "!";
         }
-        public string Square(int a = 15, int h = 10)
-        {
-            double s = a * h / 2.0;
-            return "<h2>Площадь треугольника с основанием " + a +
-                    " и высотой " + h + " равна " + s + "</h2>";
-        }
-
-        public string Squaree()
-        {
-            int a = Int32.Parse(Response.);
-            int h = 10;
-            double s = a * h / 2.0;
-            return "<h2>Площадь треугольника с основанием " + a + " и высотой " + h + " равна " + s + "</h2>";
-        }
+        
         public IActionResult Index()
         {
             return View();
